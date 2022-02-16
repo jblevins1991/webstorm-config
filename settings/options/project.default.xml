@@ -1,0 +1,74 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="MarkdownSettingsMigration">
+        <option name="stateVersion" value="1" />
+      </component>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State />
+              <State>
+                <id>CSS</id>
+              </State>
+              <State>
+                <id>Code quality toolsCSS</id>
+              </State>
+              <State>
+                <id>Code style issuesCSS</id>
+              </State>
+              <State>
+                <id>Cucumber</id>
+              </State>
+              <State>
+                <id>Docker-compose</id>
+              </State>
+              <State>
+                <id>Dockerfile</id>
+              </State>
+              <State>
+                <id>File Watchers</id>
+              </State>
+              <State>
+                <id>HTML</id>
+              </State>
+              <State>
+                <id>HTTP Client</id>
+              </State>
+              <State>
+                <id>Internationalization</id>
+              </State>
+              <State>
+                <id>YAML</id>
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>YAML</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="fileTemplates" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ScopeChooserConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>

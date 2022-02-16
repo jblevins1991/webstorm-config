@@ -1,0 +1,32 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="CoffeeScript/Replace double-quoted string with single-quoted string" />
+    <ignoreAction name="CoffeeScript/Replace single-quoted string with double-quoted string" />
+    <ignoreAction name="EditorConfig/Add declaration part" />
+    <ignoreAction name="EditorConfig/Invert option value" />
+    <ignoreAction name="Flow JS/Specify variable type explicitly" />
+    <ignoreAction name="VueJS/Expand v-model" />
+    <ignoreAction name="VueJS/Extract Vue component" />
+    <ignoreAction name="XML/Add 'xsi:schemaLocation' attribute" />
+    <ignoreAction name="XML/Choose color" />
+    <ignoreAction name="XML/Collapse empty tag" />
+    <ignoreAction name="XML/Convert CDATA to text" />
+    <ignoreAction name="XML/Convert attribute to child tag" />
+    <ignoreAction name="XML/Convert tag to attribute" />
+    <ignoreAction name="XML/Convert text to CDATA" />
+    <ignoreAction name="XML/Expand empty tag" />
+    <ignoreAction name="XML/Fetch external resource" />
+    <ignoreAction name="XML/Insert namespace prefix" />
+    <ignoreAction name="XML/Manually set up external resource" />
+    <ignoreAction name="XML/Merge tags" />
+    <ignoreAction name="XML/Rearrange tag attributes" />
+    <ignoreAction name="XML/Remove attribute" />
+    <ignoreAction name="XML/Remove tag (preserves children)" />
+    <ignoreAction name="XML/Reset to default namespace" />
+    <ignoreAction name="XML/Split current tag" />
+    <ignoreAction name="XSLT/Add optional Argument(s)" />
+    <ignoreAction name="XSLT/Convert 'xsl:if' to 'xsl:choose'" />
+    <ignoreAction name="XSLT/Inline 'xsl:attribute'" />
+    <ignoreAction name="XSLT/Replace with 'xsl:attribute'" />
+  </component>
+</application>

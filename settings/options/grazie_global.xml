@@ -1,0 +1,15 @@
+<application>
+  <component name="GraziConfig">
+    <option name="checkingContext">
+      <CheckingContext>
+        <option name="isCheckInStringLiteralsEnabled" value="true" />
+        <option name="disabledLanguages">
+          <set>
+            <option value="TEXT" />
+            <option value="XML" />
+          </set>
+        </option>
+      </CheckingContext>
+    </option>
+  </component>
+</application>

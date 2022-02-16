@@ -1,0 +1,14 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="Kubernetes Deployment.yml" reformat="true" live-template-enabled="true" />
+      <template name="Kubernetes Ignress (default backend).js" reformat="true" live-template-enabled="true" />
+      <template name="Kubernetes Ingress (with rules).yml" reformat="true" live-template-enabled="true" />
+      <template name="Kubernetes Service.yml" reformat="true" live-template-enabled="true" />
+      <template name="React Component Test File.tsx" reformat="true" live-template-enabled="true" />
+      <template name="React Context.tsx" reformat="true" live-template-enabled="true" />
+      <template name="React Forwarded Ref Component.tsx" reformat="true" live-template-enabled="true" />
+      <template name="React Functional Component.tsx" reformat="true" live-template-enabled="true" />
+    </default_templates>
+  </component>
+</application>

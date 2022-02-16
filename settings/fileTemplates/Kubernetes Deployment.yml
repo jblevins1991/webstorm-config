@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ${NAME}-deployment
+  labels:
+    app: ${NAME}
+spec:
+  name: ${NAME}
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ${NAME}
+      tier: {frontend|backend|data}
+      track: {stable|canary}
+  volumes:
+  - name: volume
+    persistentVolumeClaim:
+      claimName: claim-name
+  containers:
+  - name: ${NAME}
+    image: image/image:latest
+    ports:
+    - containerPort: 00
+    volumeMounts:
+    - name: volume
+      mountPath: /path/to/make/persistent
+    
+  

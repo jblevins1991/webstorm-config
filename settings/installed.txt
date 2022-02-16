@@ -1,0 +1,6 @@
+Key Promoter X
+com.brandiico.jetbrains-nightfall-theme
+com.eny.i18n
+com.intellij.lang.jsgraphql
+indent-rainbow.indent-rainbow
+ru.adelf.idea.dotenv

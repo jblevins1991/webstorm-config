@@ -1,0 +1,107 @@
+<templateSet group="Component Library Templates">
+  <template name="ndfc" value="import * as React from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;export interface ComponentProps {};&#10;&#10;const Component: React.FC&lt;ComponentProps&gt; = (props) =&gt; {&#10;    return &lt;&gt;&lt;/&gt;;&#10;};&#10;&#10;Component.displayName = 'Component';&#10;&#10;Component.propTypes = {};&#10;&#10;export default Component;" description="Create a functional component." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="ndfr" value="import * as React from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;export interface ComponentProps {};&#10;&#10;const Component = React.forwardRef&lt;&#10;    HTMLDivElement,&#10;    ComponentProps&#10;&gt;((props) =&gt; {&#10;    return &lt;div&gt;&lt;/div&gt;;&#10;});&#10;&#10;Component.displayName = 'Component';&#10;&#10;Component.propTypes = {};&#10;&#10;export default Component;" description="Create a component that forwards a ref." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="ndtest" value="/**&#10; *  @jest-environment jsdom&#10; */&#10; import * as React from 'react';&#10; &#10; import {&#10;    fireEvent,&#10;    render&#10;} from '@testing-library/react';&#10;&#10;import Component from '../components/Component';&#10;&#10;describe('Component component', () =&gt; {&#10;    it('should render', () =&gt; {&#10;        const { asFragment } = render(&lt;Component /&gt;);&#10;        &#10;        expect(asFragment()).toBeInTheDocument();&#10;    });&#10;});" description="Create a unit-test for a component." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="ndhooktest" value="/**&#10; *  @jest-environment jsdom&#10; */&#10; import * as React from 'react';&#10; &#10; import {&#10;    fireEvent,&#10;    render&#10;} from '@testing-library/react';&#10;&#10;import Component from '../components/Component';&#10;&#10;describe('Component component', () =&gt; {&#10;    it('should render', () =&gt; {&#10;        const { asFragment } = render(&lt;Component /&gt;);&#10;        &#10;        expect(asFragment()).toBeInTheDocument();&#10;    });&#10;});" description="Create a unit-test for a hook." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="ndcontext" value="import * as React from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;export interface MyContextType {&#10;    // context interface properties&#10;};&#10;&#10;export const MyContext = React.createContext&lt;MyContextType&gt;({&#10;    // default values go here&#10;});&#10;&#10;export interface MyContextProviderProps {&#10;    children: React.ReactNode;&#10;    // context provider props&#10;};&#10;&#10;const MyContextProvider: FC&lt;MyContextProviderProps&gt; = (props) =&gt; {&#10;    return &lt;MyContext.Provider&gt;&#10;        { props.children }&#10;    &lt;/MyContext.Provider&gt;;&#10;};&#10;&#10;MyContextProvider.displayName = 'MyContextProvider';&#10;&#10;MyContextProvider.propTypes = {&#10;    // prop types for our vanilla js brotheren&#10;};&#10;&#10;export default MyContextProvider;" description="Create a React Context." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>
